@@ -1,7 +1,7 @@
 import React from "react";
 import worldImg from "../assets/images/world.png";
 import banner1 from "../assets/images/hero-img01.jpg";
-import bannerVideo from "../assets/images/hero-video.mp4";
+// import bannerVideo from "../assets/images/hero-video.mp4";
 import banner3 from "../assets/images/hero-img02.jpg";
 const Banner = () => {
   return (
@@ -40,7 +40,7 @@ const Banner = () => {
           />
           <video
             className="border border-warning rounded-4"
-            src={bannerVideo}
+            src= "https://res.cloudinary.com/dbe2aw437/video/upload/v1744030367/hero-video_eh4x6y.mp4"
             style={{
               width: "180px",
               height: "450px",
