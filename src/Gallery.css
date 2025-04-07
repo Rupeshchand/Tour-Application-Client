@@ -1,0 +1,6 @@
+.transImage{
+    transition: transform 0.5s ease-in-out
+}
+.transImage:hover {
+    transform: scale(1.1);
+  }
