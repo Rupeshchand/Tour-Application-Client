@@ -12,17 +12,20 @@ import {
   faInstagram,
   faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons";
+import logo from "../assets/images/real logo.png";
+
 const Footer = () => {
   return (
     <>
       <div className="container-fluid footer bg-white w-100 p-5">
         <div className="row">
-          <div className="col-md-4 col-lg-3 col-xxl-3">
-            <h4 className="navbar-brand fw-bold fs-4">
-              <Link className="text-decoration-none text-black" to="/">
-                Tour Booking
-              </Link>
-            </h4>
+          <div
+            className="col-md-4 col-lg-3 col-xxl-3"
+            style={{ transform: "translateY(-32px)" }}
+          >
+            <Link className="text-decoration-none text-black" to="/">
+              <img className="img-fluid w-50 p-2" src={logo} alt="logo" />
+            </Link>
             <p className="text fs-6 text-black-50">
               "Book your perfect tour with ease and enjoy unforgettable
               experiences. Get the best prices, hassle-free bookings, and 24/7

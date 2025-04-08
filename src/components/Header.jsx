@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../context/AuthContext";
-
+import logo from "../assets/images/real logo.png"
 const Header = () => {
   const { dispatch, user } = useContext(AuthContext);
   console.log(user,"user")
@@ -13,7 +13,7 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg bg-white p-2 shadow header w-100">
         <div className="container-fluid">
           <Link className="navbar-brand fs-1 mx-3" to="/">
-            Tour Booking
+            <img className="img-fluid w-50 p-2" src={logo} alt="logo" />
           </Link>
           <button
             className="navbar-toggler"
